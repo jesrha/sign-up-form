@@ -1,0 +1,97 @@
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    background-image: url(shop_three.jpg);
+    width: 35vw;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    width: 65vw;
+}
+
+.first {
+    height: 30vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+}
+
+.second {
+    margin-top: 50px;
+    height: 28vh;
+    background-color: rgb(204, 204, 176);
+}
+
+.form-main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.form-divs {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    border: 1px solid grey;
+    height: 20px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid pink;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.third {
+    height: 33vh;
+    width: 300px;
+}
+
+.butt {
+    margin-top: 35px;
+    background-color: rgb(1, 78, 1);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-left: 45px;
+    width: 200px;
+    height: 45px;
+    font-size: 1rem;
+}
+
+.butt:hover {
+    background-color: green;
+}
